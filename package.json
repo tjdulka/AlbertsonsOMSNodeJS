@@ -1,16 +1,14 @@
 {
-	"name": "NodejsStarterApp",
+	"name": "NodePeopleAdmin",
 	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
+	"description": "Developing a Node.js REST API on IBM Bluemix",
 	"dependencies": {
-		"express": "4.13.x",
-		"cfenv": "1.0.x"
+		"express": "3.4.7",
+		"ibm_db":"0.0.1",
+		"body-parser":"1.5.2"
 	},
-	"repository": {},
 	"engines": {
-		"node": "4.x"
-	} 
+		"node": "0.10.26"
+	},
+	"repository": {}
 }
